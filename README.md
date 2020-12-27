@@ -10,7 +10,7 @@ https://www.moddb.com/mods/battlefield-hd-remastered-3/
 2) Download and install BF2HUB: https://www.bf2hub.com
 3) Run a multiplayer dedicated server mod on Windows or Linux
 
-## How to make a Linux Dedicated Server for this game?
+### How to make a Linux Dedicated Server for this game?
 1) Get a Linux Server running Ubuntu Server 16.04 LTS (Xenial Xerus). For a cheap server look at Scaleway.com Development Instances. 
 2) Run this command on the server, it will install all software you need and start the server app with default config:
 ```cd $HOME && wget https://raw.githubusercontent.com/Loginbug/BFHD-PRO-II-Linux-Dedicated-Server/main/setup.sh && chmod 7777 setup.sh && ./setup.sh```
