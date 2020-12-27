@@ -8,7 +8,7 @@ https://www.moddb.com/mods/battlefield-hd-remastered-3/
 ## How to play in multiplayer on BFHD PRO II?
 1) Download and install the standalone mod: http://tiny.cc/BF2HD
 2) Download and install BF2HUB: https://www.bf2hub.com
-3) Run a multiplayer dedicated server mod on Windows or Linux
+3) Find a HD Server in server list or run yourself a multiplayer dedicated server mod on Windows or Linux
 
 ### How to make a Linux Dedicated Server for this game?
 1) Get a Linux Server running Ubuntu Server 16.04 LTS (Xenial Xerus). For a cheap server look at Scaleway.com Development Instances. 
@@ -18,15 +18,15 @@ https://www.moddb.com/mods/battlefield-hd-remastered-3/
 ### Which is the default config?
 All avaiable HD maps in random order for a 16 Players in Co-Op mode. Yes, you can change this config.
 
+### How to connect to server?
+You will find your running server in the game serverlist. Search for "HD" server in Co-Op mode.
+
 ### How to stop server app?
 Press CTRL+C when the server is running on your terminal
 
-### How to start server app?
+### How to manually start server app?
 Use this command
 ```cd $HOME/bf2/ && sh start_bf2hub.sh```
-
-### How to connect to server?
-You will find your running server in the game serverlist. Search for "HD" server in Co-Op mode.
 
 ## How to daemonize server app?
 Install screen app on Ubuntu
