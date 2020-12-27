@@ -25,7 +25,11 @@ tar -zxvf BF2Hub-Unranked-Linux-R3.tar.gz -C $HOME/bf2/
 # Move old classic maps in another folder
 mv $HOME/bf2/mods/bf2/levels $HOME/bf2/mods/bf2/old_levels
 # Download Bf2HD PROII Patch G Linux Server files
-wget -O BF2HD_PROII_Patch_G_linux_server_files.tar.gz "https://pixeldrain.com/api/file/DffMoWen?download"
+wget -O BF2HD_PROII_Patch_G_linux_server_files.tar.gz.00 "https://github.com/Loginbug/BFHD-PRO-II-Linux-Dedicated-Server/raw/main/BF2HD_PROII_Patch_G_linux_server_files.tar.gz.00"
+wget -O BF2HD_PROII_Patch_G_linux_server_files.tar.gz.01 "https://github.com/Loginbug/BFHD-PRO-II-Linux-Dedicated-Server/raw/main/BF2HD_PROII_Patch_G_linux_server_files.tar.gz.01"
+wget -O BF2HD_PROII_Patch_G_linux_server_files.tar.gz.02 "https://github.com/Loginbug/BFHD-PRO-II-Linux-Dedicated-Server/raw/main/BF2HD_PROII_Patch_G_linux_server_files.tar.gz.03"
+wget -O BF2HD_PROII_Patch_G_linux_server_files.tar.gz.03 "https://github.com/Loginbug/BFHD-PRO-II-Linux-Dedicated-Server/raw/main/BF2HD_PROII_Patch_G_linux_server_files.tar.gz.04"
+cat BF2HD_PROII_Patch_G_linux_server_files.tar.gz.* > BF2HD_PROII_Patch_G_linux_server_files.tar.gz
 # Apply Bf2HD server mod
 tar -zxvf BF2HD_PROII_Patch_G_linux_server_files.tar.gz -C $HOME/bf2/mods/bf2/
 
